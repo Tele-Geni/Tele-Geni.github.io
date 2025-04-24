@@ -1,0 +1,23 @@
+title: 我的个人博客
+description: 记录我的技术学习和生活点滴
+baseurl: "" # 子路径，如果博客在子目录下使用
+url: "" # 你的网站地址
+
+# 构建设置
+markdown: kramdown
+permalink: pretty
+
+# 主题设置
+theme: minima
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor 
